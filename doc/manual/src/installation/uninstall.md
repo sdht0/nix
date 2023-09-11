@@ -27,7 +27,7 @@ If you are on Linux with systemd:
 Remove files created by Nix:
 
 ```console
-sudo rm -rf /etc/nix /etc/profile.d/nix.sh /etc/tmpfiles.d/nix-daemon.conf /nix ~root/.nix-channels ~root/.nix-defexpr ~root/.nix-profile
+sudo rm -rfv /etc/nix /etc/profile.d/nix.sh /etc/tmpfiles.d/nix-daemon.conf /nix ~root/.nix-channels ~root/.nix-defexpr ~root/.nix-profile ~root/.cache/nix ~root/.local/share/nix ~root/.local/state/nix ~/.nix-channels ~/.nix-defexpr ~/.nix-profile ~/.cache/nix ~/.local/share/nix ~/.local/state/nix
 ```
 
 Remove build users and their group:
